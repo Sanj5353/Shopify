@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cont {
+  min-height: calc(100vh - 37px);
+}
+
+.user{
+line-height: 2;
+font-size: xx-large;
+ }
+
+.username
+ {
+color: #a32cc4;
+}
+
+.labelFont{
+  font-size: 15px;
+}
+
+.product {
+  border: 2px solid red;
+  border-radius: 12px;
+  padding: 5px;
+  
+  margin: 0.10 xxrem 0;
+  border-color: #c8d3db ;
+  transition: all 1s linear;
+  background-color: #f1eaf3;
+  font-size: 15px;
+  font-family: "Times New Roman"
+}
+
+.product-detail {
+  padding-top: 4rem;
+  padding-right: 1rem;
+  text-align: 'center';
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.col-1 {
+  flex: 1;
+}
+
+.col-2 {
+  flex: 2;
+}
+.shopCart{
+  padding-right: 10 rem;
+}
+.block {
+  background-color: #e0e0e0;
+  padding: 1 rem;
+  margin: 0.5 rem;
+  border-radius: 0.5 rem;
+
+}
+
+.row-center {
+  align-items: center;
+
+}
+
+button {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #404040 solid;
+  background-attachment: #f0c040;
+  width: 100%;
+  cursor: pointer;
+
+}
+
+.fa-stack[data-count]:after{
+  position:absolute;
+  content: attr(data-count);
+  left:20%;
+  top:1%;
+  font-size:10px;
+  padding:.6em;
+  border-radius:100px;
+  line-height:.75em;
+  color: rgb(238, 16, 16);
+  background: whitesmoke;
+  text-align:center;
+  min-width:1em;
+  font-weight:bold;
+}
+
+.nav-item4{
+  position:absolute;
+     top: 4;
+     right: 36px;
+     color: whitesmoke;
+     font-size: large;
+  }
+     .nav-item3{
+       position: absolute;
+    top: 18px;
+    right: 2px;
+    } 
+
+    .nav-item1{
+      float: right; 
+      width: 30px;
+     margin-left: 900px;
+     
+   } 
+    .nav-item2{
+     float: right; 
+     margin-left: 2px;
+    
+   }  
+   .prodSearch {
+     font-size: 15px;
+     font-family: "Times New Roman", Times, serif;
+   }
+
+    
+    
+   
